@@ -25,8 +25,13 @@ const Stories = () => {
             <div className="card-button">
               <a href={url} title="read-more">
                 <FaBookReader />
-              </a> 
-              <a title="read-more" className="del-btn" onClick={() => removePost(objectID)} href="#">
+              </a>
+              <a
+                title="remove"
+                className="del-btn"
+                onClick={() => removePost(objectID)}
+                href="#"
+              >
                 <FaRegTrashAlt />
               </a>
             </div>
